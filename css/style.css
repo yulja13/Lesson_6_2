@@ -1,0 +1,84 @@
+@import "null.css";
+@font-face {
+	font-family: 'CircularStd';
+	src: url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+		url('../fonts/CircularStd-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'CircularStd';
+	src: url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+		url('../fonts/CircularStd-Bold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: 'CircularStd';
+	font-weight: 500;
+	font-size: 18px;
+	color: #5F5F5F;
+	line-height: 1.55;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+.page {
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 140px 15px;
+}
+.title {
+	font-size: 65px;
+	line-height: 82px;
+	text-align: center;
+	color: #313131;
+	line-height: 1.26;
+	margin-bottom: 20px;
+}
+.info {
+	font-size: 20px;
+	line-height: 1.25;
+	text-align: center;
+	max-width: 750px;
+	margin: 0 auto;
+	margin-bottom: 67px;
+}
+.service {
+	max-width: 508px;
+	padding: 145px 0 130px;
+	
+}
+.content-title {
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 1.3;
+	color: #313131;
+	opacity: 0.88;
+	margin-bottom: 20px;
+}
+.service-text {
+	margin-bottom: 125px;
+   
+}
+.image img {
+	max-width: 100%;
+}
+.author {
+	color: #B8B8B8;
+	line-height: 1.27;
+}
+.author span {
+	display: block;
+	color: #313131;
+	font-weight: 700;
+	line-height: 1.3;
+	opacity: 0.88;
+	margin-bottom: 5px;
+}
+
